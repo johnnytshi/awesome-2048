@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/tmp/sandbox/workspace/2048/2048/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="/tmp/sandbox/workspace/2048/2048/build/intermediates/pre-dexed/debug/com.android.support-support-v4-22.0.0_011f508ae7762e063ba6360f86225e6f71fc56d8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/tmp/sandbox/workspace/2048/2048/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/jars/libs/internal_impl-22.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="/tmp/sandbox/workspace/2048/2048/build/intermediates/pre-dexed/debug/internal_impl-22.0.0_d61fe50cff97090d2e2f9ef1b18e8880a2e06f06.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/tmp/sandbox/workspace/2048/dependencies/ch/acra/acra/4.6.2/acra-4.6.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="b99297996579b72496c9f81b0c12d8404c74e618">
+        <dex dex="/tmp/sandbox/workspace/2048/2048/build/intermediates/pre-dexed/debug/acra-4.6.2_194f5cca793747e6e6880966a4fa3652d71eccc8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/tingshi/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.0.0/support-annotations-22.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="/tmp/sandbox/workspace/2048/2048/build/intermediates/pre-dexed/debug/support-annotations-22.0.0_7fbde15b14820cb3e9214d043893afd3a6abf75e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/tmp/sandbox/workspace/2048/dependencies/com/squareup/seismic/1.0.2/seismic-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="41252e3eff887b3ab9a2ef9e4e9218f999d85b68">
+        <dex dex="/tmp/sandbox/workspace/2048/2048/build/intermediates/pre-dexed/debug/seismic-1.0.2_39ace6abd98e609a63c92223e02b9bffd2f28296.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/tmp/sandbox/workspace/2048/2048/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex dex="/tmp/sandbox/workspace/2048/2048/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-22.0.0_16291fb8ee5637a444db9219892a7e92ae2e857a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/tmp/sandbox/workspace/2048/2048/build/intermediates/exploded-aar/com.buddybuild/sdk/0.0.56/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="49e092a162d97d624e9e21ac5bea8853179e3fb4">
+        <dex dex="/tmp/sandbox/workspace/2048/2048/build/intermediates/pre-dexed/debug/com.buddybuild-sdk-0.0.56_dedb6001ece6172b1ed5432e55469fa72082662e.jar" />
+    </item>
+
+</items>
