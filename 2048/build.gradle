@@ -8,32 +8,7 @@ buildscript {
 
     repositories {
         maven {
-            url "dependencies"
-        }
-
-        maven {
-            url "https://plugins.gradle.org/m2/"
-        }
-    }
-    dependencies {
-        classpath "gradle.plugin.com.buddybuild:plugins:0.0.127"
-    }
-}
-
-apply plugin: "com.buddybuild.bbandroidinterceptor"
-apply plugin: "com.buddybuild.bbsdkmanager"
-
-buildscript {
-    // https://discuss.gradle.org/t/gradle-thinks-2-10-is-less-than-2-2-when-resolving-plugins/13434
-    // This is required to handle a nasty bug with certain versions of the Android gradle tools plugin (not ours),
-    // that leads to incorrect version checking thinking that 2.2 > 2.10+.
-    // TODO: Hopefully remove this one day when enough people have moved their
-    // gradle plugin version over.
-    System.properties['com.android.build.gradle.overrideVersionCheck'] = 'true'
-
-    repositories {
-        maven {
-            url "https://plugins.gradle.org/m2/"
+            url uri("./dependencies")
         }
     }
     dependencies {
@@ -49,7 +24,7 @@ buildscript {
         jcenter()
 
         maven {
-            url "dependencies"
+            url uri("./dependencies")
         }
     }
     dependencies {
@@ -60,7 +35,7 @@ buildscript {
 allprojects {
     repositories {
         maven {
-            url "../dependencies"
+            url uri("./dependencies")
         }
 
         mavenCentral()
