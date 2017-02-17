@@ -133,7 +133,7 @@ class InputListener implements View.OnTouchListener {
                         try {
                             throw new RuntimeException("Original Exception");
                         } catch (RuntimeException e) {
-                            throw new RuntimeException("Check out buddybuild Crash Reporting!");
+                            //throw new RuntimeException("Check out buddybuild Crash Reporting!");
                         }
                     } else if (isTap(2) && inRange(mView.startingX, x, mView.endingX)
                             && inRange(mView.startingY, x, mView.endingY) && mView.continueButtonEnabled) {
